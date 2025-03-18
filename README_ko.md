@@ -4,22 +4,22 @@
 
 [English](README.md) | [中文](README_zh.md) | 한국어 | [日本語](README_ja.md)
 
-[![GitHub stars](https://img.shields.io/github/stars/mannaandpoem/OpenManus?style=social)](https://github.com/mannaandpoem/OpenManus/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/mannaandpoem/Operator?style=social)](https://github.com/mannaandpoem/Operator/stargazers)
 &ensp;
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) &ensp;
 [![Discord Follow](https://dcbadge.vercel.app/api/server/DYn29wFk9z?style=flat)](https://discord.gg/DYn29wFk9z)
 
-# 👋 OpenManus
+# 👋 Operator
 
-Manus는 놀라운 도구지만, OpenManus는 *초대 코드* 없이도 모든 아이디어를 실현할 수 있습니다! 🛫
+Operator는 놀라운 도구지만, Operator는 *초대 코드* 없이도 모든 아이디어를 실현할 수 있습니다! 🛫
 
 우리 팀의 멤버인 [@Xinbin Liang](https://github.com/mannaandpoem)와 [@Jinyu Xiang](https://github.com/XiangJinyu) (핵심 작성자), 그리고 [@Zhaoyang Yu](https://github.com/MoshiQAQ), [@Jiayi Zhang](https://github.com/didiforgithub), [@Sirui Hong](https://github.com/stellaHSR)이 함께 했습니다. 우리는 [@MetaGPT](https://github.com/geekan/MetaGPT)로부터 왔습니다. 프로토타입은 단 3시간 만에 출시되었으며, 계속해서 발전하고 있습니다!
 
 이 프로젝트는 간단한 구현에서 시작되었으며, 여러분의 제안, 기여 및 피드백을 환영합니다!
 
-OpenManus를 통해 여러분만의 에이전트를 즐겨보세요!
+Operator를 통해 여러분만의 에이전트를 즐겨보세요!
 
-또한 [OpenManus-RL](https://github.com/OpenManus/OpenManus-RL)을 소개하게 되어 기쁩니다. OpenManus와 UIUC 연구자들이 공동 개발한 이 오픈소스 프로젝트는 LLM 에이전트에 대해 강화 학습(RL) 기반 (예: GRPO) 튜닝 방법을 제공합니다.
+또한 [Operator-RL](https://github.com/Operator/Operator-RL)을 소개하게 되어 기쁩니다. Operator와 UIUC 연구자들이 공동 개발한 이 오픈소스 프로젝트는 LLM 에이전트에 대해 강화 학습(RL) 기반 (예: GRPO) 튜닝 방법을 제공합니다.
 
 ## 프로젝트 데모
 
@@ -34,15 +34,15 @@ OpenManus를 통해 여러분만의 에이전트를 즐겨보세요!
 1. 새로운 conda 환경을 생성합니다:
 
 ```bash
-conda create -n open_manus python=3.12
-conda activate open_manus
+conda create -n hanzo-operator python=3.12
+conda activate hanzo-operator
 ```
 
 2. 저장소를 클론합니다:
 
 ```bash
-git clone https://github.com/mannaandpoem/OpenManus.git
-cd OpenManus
+git clone https://github.com/mannaandpoem/Operator.git
+cd Operator
 ```
 
 3. 종속성을 설치합니다:
@@ -62,8 +62,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 2. 저장소를 클론합니다:
 
 ```bash
-git clone https://github.com/mannaandpoem/OpenManus.git
-cd OpenManus
+git clone https://github.com/mannaandpoem/Operator.git
+cd Operator
 ```
 
 3. 새로운 가상 환경을 생성하고 활성화합니다:
@@ -83,7 +83,7 @@ uv pip install -r requirements.txt
 
 ## 설정 방법
 
-OpenManus를 사용하려면 사용하는 LLM API에 대한 설정이 필요합니다. 아래 단계를 따라 설정을 완료하세요:
+Operator를 사용하려면 사용하는 LLM API에 대한 설정이 필요합니다. 아래 단계를 따라 설정을 완료하세요:
 
 1. `config` 디렉토리에 `config.toml` 파일을 생성하세요 (예제 파일을 복사하여 사용할 수 있습니다):
 
@@ -111,7 +111,7 @@ api_key = "sk-..."  # 실제 API 키로 변경하세요
 
 ## 빠른 시작
 
-OpenManus를 실행하는 한 줄 명령어:
+Operator를 실행하는 한 줄 명령어:
 
 ```bash
 python main.py
@@ -137,12 +137,12 @@ python run_flow.py
 Feishu 네트워킹 그룹에 참여하여 다른 개발자들과 경험을 공유하세요!
 
 <div align="center" style="display: flex; gap: 20px;">
-    <img src="assets/community_group.jpg" alt="OpenManus 交流群" width="300" />
+    <img src="assets/community_group.jpg" alt="Operator 交流群" width="300" />
 </div>
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=mannaandpoem/OpenManus&type=Date)](https://star-history.com/#mannaandpoem/OpenManus&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=mannaandpoem/Operator&type=Date)](https://star-history.com/#mannaandpoem/Operator&Date)
 
 ## 감사의 글
 
@@ -151,16 +151,16 @@ Feishu 네트워킹 그룹에 참여하여 다른 개발자들과 경험을 공�
 
 또한, [AAAJ](https://github.com/metauto-ai/agent-as-a-judge), [MetaGPT](https://github.com/geekan/MetaGPT), [OpenHands](https://github.com/All-Hands-AI/OpenHands), [SWE-agent](https://github.com/SWE-agent/SWE-agent)에 깊은 감사를 드립니다.
 
-OpenManus는 MetaGPT 기여자들에 의해 개발되었습니다. 이 에이전트 커뮤니티에 깊은 감사를 전합니다!
+Operator는 MetaGPT 기여자들에 의해 개발되었습니다. 이 에이전트 커뮤니티에 깊은 감사를 전합니다!
 
 ## 인용
 ```bibtex
-@misc{openmanus2025,
+@misc{openoperator2025,
   author = {Xinbin Liang and Jinyu Xiang and Zhaoyang Yu and Jiayi Zhang and Sirui Hong},
-  title = {OpenManus: An open-source framework for building general AI agents},
+  title = {Operator: An open-source framework for building general AI agents},
   year = {2025},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/mannaandpoem/OpenManus}},
+  howpublished = {\url{https://github.com/mannaandpoem/Operator}},
 }
 ```

@@ -1,6 +1,6 @@
 ---
 name: "🤔 Request new features"
-about: Suggest ideas or features you’d like to see implemented in OpenManus.
+about: Suggest ideas or features you’d like to see implemented in Operator.
 title: ''
 labels: kind/features
 assignees: ''
